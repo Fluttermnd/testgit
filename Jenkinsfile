@@ -12,7 +12,7 @@ pipeline {
                  }
                  stage('Added to zip archive') {
                                 steps {
-                                    echo ''Zip has been runned!
+                                    echo 'Zip has been runned!'
                                     sh 'zip archive.zip *.jpg'
                                 }
                  }
